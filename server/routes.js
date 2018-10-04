@@ -3,7 +3,8 @@ module.exports = function(app) {
     { path: '/', router: require('./routes/index') },
     { path: '/users', router: require('./routes/users') },
     { path: '/products', router: require('./routes/products') },
-    { path: '/categories', router: require('./routes/categories') },
+		{ path: '/categories', router: require('./routes/categories') },
+		{ path: '/invoice', router: require('./routes/stripe') },
     { path: '/seeder', router: require('./routes/seeder/products') }
   ]
 

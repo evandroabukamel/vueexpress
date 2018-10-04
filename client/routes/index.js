@@ -3,7 +3,7 @@ import Products from '@/components/Products'
 import Product from '@/components/Product'
 import Category from '@/components/Category'
 import Checkout from '@/components/Checkout'
-import Thakyou from '@/components/Thakyou'
+import Thankyou from '@/components/Thankyou'
 
 const routes = [
   {
@@ -31,7 +31,7 @@ const routes = [
   {
     path: '/thankyou',
     name: 'thankyou',
-    component: Thakyou,
+    component: Thankyou,
   }
 ];
 
